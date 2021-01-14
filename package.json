@@ -1,0 +1,27 @@
+{
+  "name": "scam-schematic",
+  "version": "0.0.0",
+  "description": "Single Component Angular Module schematic",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "jest"
+  },
+  "keywords": [
+    "schematics"
+  ],
+  "author": "hoffination",
+  "license": "MIT",
+  "schematics": "./src/collection.json",
+  "dependencies": {
+    "@angular-devkit/core": "^11.0.6",
+    "@angular-devkit/schematics": "^11.0.6",
+    "@schematics/angular": "^11.0.6",
+    "typescript": "~4.0.2"
+  },
+  "devDependencies": {
+    "@types/jasmine": "~3.5.0",
+    "@types/node": "^12.11.1",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.4"
+  }
+}
