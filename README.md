@@ -1,4 +1,8 @@
-# SCAM Schematic
+# Angular Schematic Patterns
+
+A collections of pragmatic Angular Schematic Patterns.
+
+## SCAM Pattern
 
 The Single Component Angular Module pattern is beneficial for maintaining and updating files within large scale Angular projects. In this schematic we also removed TestBed as the default test library for Angular due to it's inability to, at scale, provide a fast and extensible unit testing interface.
 
